@@ -1,0 +1,18 @@
+h1{
+  font-size:15px;
+  color: navy;
+  font-weight: bold;
+  margin: 20px;
+  display: inline-block;
+}
+.flex {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.list{
+  margin: 10px;
+  font-size: 10px;
+  color: navy;
+  display: inline-block;
+}
