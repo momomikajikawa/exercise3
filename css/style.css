@@ -1,18 +1,43 @@
-h1{
-  font-size:15px;
-  color: navy;
-  font-weight: bold;
-  margin: 20px;
-  display: inline-block;
-}
-.flex {
-  display: flex;
-  justify-content: flex-end;
+.header{
+  padding: 20px;
 }
 
-.list{
-  margin: 10px;
-  font-size: 10px;
+.header-logo{
+float :left;
+font-size: 15px;
+color: navy;
+}
+
+.header-list li{
+  float: right;
+  font-size: 12px;
+  padding: 5px;
+  list-style: none;
   color: navy;
-  display: inline-block;
+}
+
+.relative{
+  position: relative;
+}
+
+.relative-img{
+  margin: 30px 0 0 auto;
+  display: block;
+  width: 50%;
+  z-index: 10;
+}
+
+.absolute-text{
+  position: absolute;
+  top: 65%;
+  font-size: 30px;
+}
+
+.abdolute-box{
+  position: absolute;
+  top: 80%;
+  background-color: navy;
+  width: 500px;
+  height: 100px;
+  z-index: 0;
 }
