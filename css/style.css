@@ -1,46 +1,96 @@
+a{
+  text-decoration: none;
+  color: inherit;
+}
 .header{
-  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 0 20px;
+  font-size: 14px;
 }
-
 .header-logo{
-float :left;
-font-size: 20px;
-color: navy;
-font-weight: bold;
+  width: 120px;
+  height: 40px;
+  padding: 5px 5px;
 }
-
-.header-list li{
-  float: right;
-  font-size: 12px;
-  padding: 5px;
-  list-style: none;
-  color: navy;
-  font-weight: bold;
+.header-nav{
+  color: #888888;
+  text-decoration: none;
 }
-
+.header-nav-list{
+  display: flex;
+  text-decoration: none;
+}
+.header-nav-item:not(:last-child){
+  margin-right: 30px;
+}
 .relative{
   position: relative;
 }
-
 .relative-img{
-  position: relative;
-  margin: 100px 0 0 auto;
+  margin: 0 0 0 auto;
   display: block;
-  width: 50%;
-  z-index: 2;
+  width: 60%;
 }
-
+.absolute{
+  position: absolute;
+  top:20%;
+  left: 22%;
+  font-size: 60px;
+  color: #990066;
+  font-family: 'Indie Flower', cursive;
+  line-height: 100px;
+}
+.blue{
+  color: #009999;
+}
 .absolute-text{
   position: absolute;
-  top: 57%;
-  font-size: 70px;
+  top: 65%;
+  left: 22%;
+  font-size: 20px;
+  color: #990066;
 }
-
-.abdolute-box{
+.absolute-text2{
   position: absolute;
-  top: 80%;
-  background-color: navy;
-  width: 80%;
-  height: 40%;
-  z-index: 1;
+  top: 70%;
+  left: 22%;
+  color: #888888;
+  font-size: 14px;
+}
+.news-logo{
+  margin: 30px 0 10px 0;
+  font-size: 13px;
+  color: #990066;
+}
+.news-title{
+  color: #888888;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.news-item{
+  display: flex;
+  text-align: center;
+  color: #888888;
+  line-height: 20px;
+  border-bottom: #c0c0c0 1px solid;
+  padding: 10px;
+  margin: 0 auto;
+}
+.news-wrapper{
+  border-top: 2px solid #c0c0c0;
+  padding: 10px;
+  border-bottom: #c0c0c0 2px solid;
+  display: inline-block;
+
+}
+.news-round-logo{
+  width: 100px;
+  margin: 0 30px;
+  color: white;
+  background: #990066;
+  border-radius: 30px;
 }
