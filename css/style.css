@@ -194,8 +194,9 @@ h5{
 .service-text1{
   color: white;
   font-size: 15px;
-  padding:20px 0 0 10px;
+  padding:20px 50px;
   line-height: 25px;
+  text-align: left;
 }
 .service-text2{
   color: white;
@@ -310,30 +311,30 @@ table td{
 }
 
 .flex-item2{
+  margin-top: 90px;
   display: flex;
-  padding-top: 90px;
+}
+.interview, .recruit{
+  position: relative;
   width: 100%;
 }
-.interview{
-  position: relative;
-}
-.recruit{
-  position: relative;
+.interview-img, .recruit-img{
+  width: 100%;
 }
 .recruit-text{
   position: absolute;
   top: 50%;
-  left: 45%;
+  left: 42%;
   color: white;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
 }
 .interview-text{
   position: absolute;
   top: 50%;
-  left: 48%;
+  left: 42%;
   color: white;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
 }
 .contact{
@@ -349,11 +350,11 @@ table td{
 }
 .contact-button{
   position: relative;
-  width: 250px;
+  width: 230px;
   padding:20px;
   color: #fff;
-  background: linear-gradient(90deg, #ef41b5,#990066);
-  border-radius: 30px;
+  background: linear-gradient(90deg, #e22185,#d10e90);
+  border-radius: 35px;
   text-align: center;
   box-shadow: 0 6px 0 #83085a;
   margin: 100px auto 0;
